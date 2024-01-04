@@ -35,12 +35,12 @@ body:
       description: Please mark everything that describes your system.
       multiple: true
       options:
-	- label: My desktop is Gnome
-	- label: My desktop is KDE
-	- label: I know for sure composing is enabled
+        - label: My desktop is Gnome
+        - label: My desktop is KDE
+        - label: I know for sure composing is enabled
         - label: I'm using X11
-	- label: I'm using Wayland
-	- label: I have no idea what you are talking about
+        - label: I'm using Wayland
+        - label: I have no idea what you are talking about
   - type: textarea
     id: what-happened
     attributes:
