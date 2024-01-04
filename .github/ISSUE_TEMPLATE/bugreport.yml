@@ -23,8 +23,8 @@ body:
       options:
         - Standalone binary/script
         - DLL (d3d11.dll)
-	- DLL (arcdps_burritolink.dll)
-	- Other
+        - DLL (arcdps_burritolink.dll)
+        - Other
       default: 0
     validations:
       required: true
