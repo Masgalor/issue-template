@@ -8,9 +8,9 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: checkboxes
-    id: burrito_version
+    id: up-to-date
     attributes:
-      label: Burrito Version
+      label: Be up-to-date
       description: Please make sure you are using the latest version of Burrito before opening a report.
       options:
         - label: I can reproduce my problem with the latest available release.
