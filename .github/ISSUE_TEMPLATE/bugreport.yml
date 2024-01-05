@@ -42,11 +42,29 @@ body:
       value: |
         ---
         The following information is optional, but it will help us alot if you provide as much as possible.
-        If you are comfortable using a command line, please run the given commands and copy-paste the output here.
+        If you are comfortable using a command line, please run the given commands and copy-paste the output.
         (This will be automatically formatted into code, so no need for backticks.)
   - type: textarea
     id: compositors
     attributes:
       label: Compositors
-      description: Please run the command `inxi -Gxxx` and copy and paste the output.
+      description: |
+        What compositor does your system use?
+        Please run the command `inxi -Gxxx` or answer in your own words.
+      render: shell
+  - type: textarea
+    id: window_managers
+    attributes:
+      label: Window Managers
+      description: |
+        What window manager does your system use?
+        Please run the command `wmtrl -m` or answer in your own words.
+      render: shell
+ - type: textarea
+    id: display_protocol
+    attributes:
+      label: Display Protocol
+      description: |
+        What display protocol does your system use?
+        Please run the command `echo $XDG_SESSION_TYPE` or answer in your own words.
       render: shell
